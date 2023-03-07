@@ -8,7 +8,7 @@ import modules.scripts as scripts
 script_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 flavors = ['Restart']
 def on_ui_settings():
-    section = ('manko', 'OMANKO')
+    section = (None, 'Hidden')
     shared.opts.add_option("quick_restart", 
                             shared.OptionInfo(
                                 default=[], 
