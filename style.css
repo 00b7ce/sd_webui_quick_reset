@@ -1,0 +1,27 @@
+#setting_quick_restart {
+    visibility: hidden;
+}
+
+#refresh_quick_restart{
+    font-size:0;
+}
+
+#refresh_quick_restart::before {
+    margin-top: 40px;
+    margin-left: 135vw;
+    align-content: center;
+    content: url(https://user-images.githubusercontent.com/43980268/223325626-5cedf424-f72e-4ac2-b47b-1aa47b7de392.png);
+}
+
+#refresh_quick_restart {
+    --tw-shadow: initial;
+    --tw-shadow-colored: initial;
+    box-shadow: initial;
+}
+
+#refresh_quick_restart.gr-button:hover {
+    --tw-shadow: initial;
+    --tw-shadow-colored: initial;
+    box-shadow: initial;
+}
+
